@@ -1,0 +1,5 @@
+package com.nte.mc.controlplugin.spawnprotection;
+
+public class Eventlistener {
+
+}

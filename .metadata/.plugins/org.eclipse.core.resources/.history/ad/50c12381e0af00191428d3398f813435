@@ -1,0 +1,6 @@
+name: ControlPlugin
+author: Nickitki
+main: com.nte.mc.controlplugin.main.Main
+version: 1.0
+commands:
+	
