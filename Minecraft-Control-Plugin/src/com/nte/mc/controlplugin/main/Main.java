@@ -11,6 +11,7 @@ public class Main extends JavaPlugin{
 
 	@Override
 	public void onEnable() {
+		Variables.config = config;
 		System.out.println("[ControlPlugin] Enabled successfully");
 		this.saveDefaultConfig();
 		

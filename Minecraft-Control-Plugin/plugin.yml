@@ -3,3 +3,7 @@ author: Nickitki
 main: com.nte.mc.controlplugin.main.Main
 version: 1.0
 commands:
+  mcp:
+    description: Help command of the ControlPlugin
+    permissons: 
+    ussage: /mcp <args>

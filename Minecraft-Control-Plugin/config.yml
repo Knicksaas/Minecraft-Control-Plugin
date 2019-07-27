@@ -12,3 +12,6 @@ Spawnprotection:
     x: 0
     y: 0
     z: 0
+Messages:
+  No-permission: You don't have this permission!
+  Player-only-command: This is a player-only command!

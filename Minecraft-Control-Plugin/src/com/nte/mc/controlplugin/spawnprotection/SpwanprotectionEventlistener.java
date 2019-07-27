@@ -79,6 +79,11 @@ public class SpwanprotectionEventlistener implements Listener{
 			if(!p.getGameMode().equals(GameMode.ADVENTURE)) {
 				p.setGameMode(GameMode.ADVENTURE);
 			}
+			
+		} else {
+			if(!p.getGameMode().equals(GameMode.SURVIVAL)) {
+				p.setGameMode(GameMode.SURVIVAL);
+			}
 		}
 	}
 }
