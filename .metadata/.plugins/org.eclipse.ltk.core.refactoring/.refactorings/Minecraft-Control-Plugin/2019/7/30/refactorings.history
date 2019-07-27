@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nte.mc.controlplugin.spawnprotection.Eventlistener&apos; to &apos;SpwanprotectionEventlistener&apos;&#x0D;&#x0A;- Original project: &apos;Minecraft-Control-Plugin&apos;&#x0D;&#x0A;- Original element: &apos;com.nte.mc.controlplugin.spawnprotection.Eventlistener&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nte.mc.controlplugin.spawnprotection.SpwanprotectionEventlistener&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Eventlistener&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.nte.mc.controlplugin.spawnprotection{Eventlistener.java[Eventlistener" matchStrategy="1" name="SpwanprotectionEventlistener" qualified="false" references="true" similarDeclarations="false" stamp="1564230497620" textual="false" version="1.0"/>
+</session>

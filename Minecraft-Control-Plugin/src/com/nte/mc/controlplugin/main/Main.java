@@ -1,21 +1,22 @@
 package com.nte.mc.controlplugin.main;
 
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.nte.mc.controlplugin.spawnprotection.Eventlistener;
+import com.nte.mc.controlplugin.spawnprotection.SpwanprotectionEventlistener;
 
 public class Main extends JavaPlugin{
-	
-	public FileConfiguration config = getConfig();
 	
 
 	@Override
 	public void onEnable() {
 		System.out.println("[ControlPlugin] Enabled successfully");
-		this.saveConfig();
+		this.saveDefaultConfig();
 		
-		this.getServer().getPluginManager().registerEvents(new Eventlistener(), this);
+		eventRegister();
+	}
+	
+	public void eventRegister() {
+		this.getServer().getPluginManager().registerEvents(new SpwanprotectionEventlistener(), this);
 	}
 	
 	
