@@ -10,4 +10,4 @@ commands:
   heal:
     description: Heals a Player
     permissions: mcp.health.heal
-    usage: /heal [Player]
+    

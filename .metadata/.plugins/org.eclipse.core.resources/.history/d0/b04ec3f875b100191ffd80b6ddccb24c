@@ -5,9 +5,9 @@ version: 1.1.1
 commands:
   mcp:
     description: Help command of the ControlPlugin
-    permissions: 
+    permissons: 
     usage: /mcp <args>
   heal:
     description: Heals a Player
     permissions: mcp.health.heal
-    usage: /heal [Player]
+    

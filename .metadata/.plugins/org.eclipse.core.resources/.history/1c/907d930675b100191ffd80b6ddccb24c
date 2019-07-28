@@ -22,9 +22,6 @@ public class CommandRooter{
 	public static void sendAlredyLoggedOutMsg(Player p) {
 		p.sendMessage(ChatColor.RED + Variables.config.getString("Messages.Already-logged-out"));
 	}
-	public static void sendPlayerNotFoundMsg(Player p) {
-		p.sendMessage(ChatColor.RED + Variables.config.getString("Messages.Player-not-found"));
-	}
 	public static void sendPlayerOnlyCmdMsg() {
 		System.out.println(Variables.config.getString("Messages.Player-only-command"));
 	}
