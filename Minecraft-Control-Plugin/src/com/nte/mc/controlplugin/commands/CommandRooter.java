@@ -1,31 +1,28 @@
 package com.nte.mc.controlplugin.commands;
 
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandSender;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.java.JavaPlugin;
 
 import com.nte.mc.controlplugin.main.Variables;
 
-import net.md_5.bungee.api.ChatColor;
+public class CommandRooter{
 
-public class CommandRooter extends JavaPlugin{
-
-	@Override
-	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-		System.out.println("FinalTest");
-		if(cmd.getName().equalsIgnoreCase("mcp")) {
-			new Mcp(sender, cmd, label, args);
-			System.out.println("Test1");
-			return true;
-		}
-		return false;
-	}
-	
 	public static void sendNoPermissionMsg(Player p) {
 		p.sendMessage(ChatColor.RED + Variables.config.getString("Messages.No-permission"));
 	}
-	public static void sendPlayerOnlyCmdMsg(Player p) {
+	public static void sendSuccessfulLoggedInMsg(Player p) {
+		p.sendMessage(ChatColor.GREEN + Variables.config.getString("Messages.Successfully-logged-in"));
+	}
+	public static void sendSuccessfulLoggedOutMsg(Player p) {
+		p.sendMessage(ChatColor.GREEN + Variables.config.getString("Messages.Successfully-logged-out"));
+	}
+	public static void sendAlredyLoggedInMsg(Player p) {
+		p.sendMessage(ChatColor.RED + Variables.config.getString("Messages.Already-logged-in"));
+	}
+	public static void sendAlredyLoggedOutMsg(Player p) {
+		p.sendMessage(ChatColor.RED + Variables.config.getString("Messages.Already-logged-out"));
+	}
+	public static void sendPlayerOnlyCmdMsg() {
 		System.out.println(Variables.config.getString("Messages.Player-only-command"));
 	}
 }

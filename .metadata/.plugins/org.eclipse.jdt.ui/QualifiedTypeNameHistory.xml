@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
 <fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
-<fullyQualifiedTypeName name="org.bukkit.configuration.file.FileConfiguration"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.spawnprotection.Eventlistener"/>
 <fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
 <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerMoveEvent"/>
+<fullyQualifiedTypeName name="org.bukkit.block.Block"/>
+<fullyQualifiedTypeName name="org.bukkit.configuration.file.YamlConfiguration"/>
+<fullyQualifiedTypeName name="org.bukkit.Location"/>
+<fullyQualifiedTypeName name="org.bukkit.World"/>
+<fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.main.Main"/>
+<fullyQualifiedTypeName name="javax.naming.directory.DirContext"/>
+<fullyQualifiedTypeName name="org.bukkit.GameMode"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+<fullyQualifiedTypeName name="org.bukkit.configuration.file.FileConfiguration"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.Commandrooter"/>
 <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+<fullyQualifiedTypeName name="net.md_5.bungee.api.ChatColor"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.Mcp"/>
+<fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
+<fullyQualifiedTypeName name="org.bukkit.command.CommandSender"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.main.Variables"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.CommandRooter"/>
 </qualifiedTypeNameHistroy>

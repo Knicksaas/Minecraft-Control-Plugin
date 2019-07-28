@@ -10,6 +10,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 
 import com.nte.mc.controlplugin.main.Main;
+import com.nte.mc.controlplugin.main.Variables;
 
 public class SpwanprotectionEventlistener implements Listener{
 	
@@ -39,6 +40,10 @@ public class SpwanprotectionEventlistener implements Listener{
 	@EventHandler
 	public void playerMoveEvent(PlayerMoveEvent e) {
 		Player p = e.getPlayer();
+		
+		if(Variables.adminList.contains(p.getName())) {
+			return;
+		}
 		
 		dirX = false;
 		dirY = false;

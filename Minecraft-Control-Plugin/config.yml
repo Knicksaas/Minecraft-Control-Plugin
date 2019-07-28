@@ -15,3 +15,7 @@ Spawnprotection:
 Messages:
   No-permission: You don't have this permission!
   Player-only-command: This is a player-only command!
+  Successfully-logged-in: You successfully logged in!
+  Successfully-logged-out: You successfully logged out!
+  Already-logged-in: You are already logged in!
+  Already-logged-out: You are already logged out!
