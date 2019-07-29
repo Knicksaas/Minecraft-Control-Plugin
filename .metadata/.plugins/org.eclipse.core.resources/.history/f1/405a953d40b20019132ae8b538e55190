@@ -25,9 +25,6 @@ public class CommandRooter{
 	public static void sendPlayerNotFoundMsg(Player p) {
 		p.sendMessage(ChatColor.RED + Variables.config.getString("Messages.Player-not-found"));
 	}
-	public static void sendSyntaxErrorMsg(Player p) {
-		p.sendMessage(ChatColor.RED + Variables.config.getString("Messages.Syntax-error"));
-	}
 	public static void sendPlayerOnlyCmdMsg() {
 		System.out.println(Variables.config.getString("Messages.Player-only-command"));
 	}

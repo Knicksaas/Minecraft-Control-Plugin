@@ -11,7 +11,3 @@ commands:
     description: Heals a Player
     permissions: mcp.health.heal
     usage: /heal [Player]
-  setmaxhealth:
-    description: Sets max health of a player
-    permissions: mcp.health.maxhealth
-    usage: /setmaxhealth [<Player, value>] [value]

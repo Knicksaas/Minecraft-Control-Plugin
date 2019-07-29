@@ -14,4 +14,3 @@ commands:
   setmaxhealth:
     description: Sets max health of a player
     permissions: mcp.health.maxhealth
-    usage: /setmaxhealth [<Player, value>] [value]

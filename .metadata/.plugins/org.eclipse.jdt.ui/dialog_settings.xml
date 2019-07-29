@@ -49,8 +49,8 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
-			<item value="E:\Nickitiki\Java Projekte\Minecraft\Exports\ControlPlugin.jar"/>
 			<item value="C:\Users\Nickitiki\Desktop\testserver 1.14.4\plugins\ControlPlugin.jar"/>
+			<item value="E:\Nickitiki\Java Projekte\Minecraft\Exports\ControlPlugin.jar"/>
 		</list>
 	</section>
 	<section name="RefactoringWizard.preview">

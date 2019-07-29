@@ -47,19 +47,15 @@ public class HealthCommands {
 				} else if (args.length == 1) {
 					try {
 						p.setMaxHealth(Double.valueOf(args[0]));
-						return true;
 					} catch (Exception e) {
 						CommandRooter.sendSyntaxErrorMsg(p);
-						return true;
 					}
 				} else if (args.length == 2) {
 					for(Player t : Bukkit.getServer().getOnlinePlayers()) {
 						if(t.getDisplayName().equalsIgnoreCase(args[0])) {
 							t.setMaxHealth(Double.valueOf(args[1]));
-							return true;
 						} else {
 							CommandRooter.sendPlayerNotFoundMsg(p);
-							return true;
 						}
 					}
 				} else {

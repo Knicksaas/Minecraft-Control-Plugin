@@ -50,7 +50,6 @@ public class HealthCommands {
 						return true;
 					} catch (Exception e) {
 						CommandRooter.sendSyntaxErrorMsg(p);
-						return true;
 					}
 				} else if (args.length == 2) {
 					for(Player t : Bukkit.getServer().getOnlinePlayers()) {

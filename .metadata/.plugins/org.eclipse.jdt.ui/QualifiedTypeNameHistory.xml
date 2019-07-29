@@ -8,7 +8,6 @@
 <fullyQualifiedTypeName name="org.bukkit.configuration.file.YamlConfiguration"/>
 <fullyQualifiedTypeName name="org.bukkit.Location"/>
 <fullyQualifiedTypeName name="org.bukkit.World"/>
-<fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.main.Main"/>
 <fullyQualifiedTypeName name="javax.naming.directory.DirContext"/>
 <fullyQualifiedTypeName name="org.bukkit.GameMode"/>
@@ -18,11 +17,13 @@
 <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
 <fullyQualifiedTypeName name="org.bukkit.configuration.file.FileConfiguration"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.Commandrooter"/>
-<fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
 <fullyQualifiedTypeName name="net.md_5.bungee.api.ChatColor"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.Mcp"/>
 <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
 <fullyQualifiedTypeName name="org.bukkit.command.CommandSender"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.main.Variables"/>
+<fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+<fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.CommandRooter"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.HealthCommands"/>
 </qualifiedTypeNameHistroy>
