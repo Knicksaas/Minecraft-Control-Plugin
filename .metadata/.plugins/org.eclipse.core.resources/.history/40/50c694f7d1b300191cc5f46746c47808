@@ -17,20 +17,14 @@ public class MovmentsCommands {
 						speed = Float.parseFloat(args[0]);
 						if(p.isFlying()) {
 							if(speed<=10) {
-								p.setFlySpeed(speed/10);
-								return true;
-							} else {
-								CommandRooter.sendValueToHighMsg(p);
-								return true;
+								
 							}
+							p.setFlySpeed(Float.parseFloat(args[0]));
+							return true;
 						} else {
-							if(speed<=10) {
-								p.setWalkSpeed(speed/10);
-								return true;
-							} else {
-								CommandRooter.sendValueToHighMsg(p);
-								return true;
-							}
+							System.out.println(args[0]);
+							p.setWalkSpeed(Float.parseFloat(args[0]));
+							return true;
 						}
 					} catch (Exception e) {
 						return false;

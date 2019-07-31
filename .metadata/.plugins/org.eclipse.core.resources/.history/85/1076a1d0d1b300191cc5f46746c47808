@@ -14,23 +14,16 @@ public class MovmentsCommands {
 			if(p.hasPermission("mcp.mv.speed")) {
 				if(args.length == 1) {
 					try {
-						speed = Float.parseFloat(args[0]);
 						if(p.isFlying()) {
-							if(speed<=10) {
-								p.setFlySpeed(speed/10);
-								return true;
-							} else {
-								CommandRooter.sendValueToHighMsg(p);
-								return true;
+							if(Float.parseFloat(args[0])<=10) {
+								
 							}
+							p.setFlySpeed(Float.parseFloat(args[0]));
+							return true;
 						} else {
-							if(speed<=10) {
-								p.setWalkSpeed(speed/10);
-								return true;
-							} else {
-								CommandRooter.sendValueToHighMsg(p);
-								return true;
-							}
+							System.out.println(args[0]);
+							p.setWalkSpeed(Float.parseFloat(args[0]));
+							return true;
 						}
 					} catch (Exception e) {
 						return false;

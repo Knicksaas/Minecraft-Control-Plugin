@@ -46,6 +46,7 @@ public class MovmentsCommands {
 			CommandRooter.sendPlayerOnlyCmdMsg();
 			return true;
 		}
+		return false;
 	}
 	
 	public static boolean fly(CommandSender sender, Command cmd, String label, String[] args) {

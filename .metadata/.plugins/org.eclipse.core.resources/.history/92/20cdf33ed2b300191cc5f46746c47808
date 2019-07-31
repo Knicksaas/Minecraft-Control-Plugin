@@ -28,9 +28,6 @@ public class CommandRooter{
 	public static void sendSyntaxErrorMsg(Player p) {
 		p.sendMessage(ChatColor.RED + Variables.config.getString("Messages.Syntax-error"));
 	}
-	public static void sendValueToHighMsg(Player p) {
-		p.sendMessage(ChatColor.RED + Variables.config.getString("Messages.To-high-Value"));
-	}
 	public static void sendPlayerOnlyCmdMsg() {
 		System.out.println(Variables.config.getString("Messages.Player-only-command"));
 	}

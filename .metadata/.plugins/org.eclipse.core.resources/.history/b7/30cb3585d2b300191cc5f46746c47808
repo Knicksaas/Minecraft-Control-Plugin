@@ -18,7 +18,6 @@ public class MovmentsCommands {
 						if(p.isFlying()) {
 							if(speed<=10) {
 								p.setFlySpeed(speed/10);
-								return true;
 							} else {
 								CommandRooter.sendValueToHighMsg(p);
 								return true;
@@ -46,6 +45,7 @@ public class MovmentsCommands {
 			CommandRooter.sendPlayerOnlyCmdMsg();
 			return true;
 		}
+		return false;
 	}
 	
 	public static boolean fly(CommandSender sender, Command cmd, String label, String[] args) {

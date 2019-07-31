@@ -18,19 +18,11 @@ public class MovmentsCommands {
 						if(p.isFlying()) {
 							if(speed<=10) {
 								p.setFlySpeed(speed/10);
-								return true;
-							} else {
-								CommandRooter.sendValueToHighMsg(p);
-								return true;
 							}
+							return true;
 						} else {
-							if(speed<=10) {
-								p.setWalkSpeed(speed/10);
-								return true;
-							} else {
-								CommandRooter.sendValueToHighMsg(p);
-								return true;
-							}
+							p.setWalkSpeed(Float.parseFloat(args[0]));
+							return true;
 						}
 					} catch (Exception e) {
 						return false;

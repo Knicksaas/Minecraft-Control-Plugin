@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.entity.Turtle;
 
 public class MovmentsCommands {
 	
@@ -18,7 +19,6 @@ public class MovmentsCommands {
 						if(p.isFlying()) {
 							if(speed<=10) {
 								p.setFlySpeed(speed/10);
-								return true;
 							} else {
 								CommandRooter.sendValueToHighMsg(p);
 								return true;
@@ -46,6 +46,7 @@ public class MovmentsCommands {
 			CommandRooter.sendPlayerOnlyCmdMsg();
 			return true;
 		}
+		return false;
 	}
 	
 	public static boolean fly(CommandSender sender, Command cmd, String label, String[] args) {
