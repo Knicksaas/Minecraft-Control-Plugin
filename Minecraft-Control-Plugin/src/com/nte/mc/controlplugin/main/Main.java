@@ -7,6 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import com.nte.mc.controlplugin.commands.HealthCommands;
 import com.nte.mc.controlplugin.commands.Mcp;
+import com.nte.mc.controlplugin.commands.MovmentsCommands;
 import com.nte.mc.controlplugin.spawnprotection.SpwanprotectionEventlistener;
 
 public class Main extends JavaPlugin{
@@ -34,6 +35,10 @@ public class Main extends JavaPlugin{
 			return true;
 		} else if (cmd.getName().equalsIgnoreCase("heal")) {
 			return HealthCommands.heal(sender, cmd, label, args);
+		} else if (cmd.getName().equalsIgnoreCase("speed")) {
+			return MovmentsCommands.speed(sender, cmd, label, args);
+		} else if (cmd.getName().equalsIgnoreCase("fly")) {
+			return MovmentsCommands.fly(sender, cmd, label, args);
 		}
 		
 	return false;

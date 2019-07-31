@@ -15,3 +15,11 @@ commands:
     description: Sets max health of a player
     permissions: mcp.health.maxhealth
     usage: /setmaxhealth [<Player, value>] [value]
+  speed:
+    description: Sets fly or walk speed
+    permissions: mcp.mv.speed
+    usage: /speed <value>
+  fly:
+    description: Sets Player flying
+    permissions: mcp.mv.fly
+    usage: /fly [Player]

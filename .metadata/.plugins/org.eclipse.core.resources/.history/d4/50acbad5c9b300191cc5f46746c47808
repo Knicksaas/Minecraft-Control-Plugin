@@ -1,0 +1,19 @@
+name: ControlPlugin
+author: Nickitki
+main: com.nte.mc.controlplugin.main.Main
+version: 1.1.1
+commands:
+  mcp:
+    description: Help command of the ControlPlugin
+    permissions: 
+    usage: /mcp <args>
+  heal:
+    description: Heals a Player
+    permissions: mcp.health.heal
+    usage: /heal [Player]
+  setmaxhealth:
+    description: Sets max health of a player
+    permissions: mcp.health.maxhealth
+    usage: /setmaxhealth [<Player, value>] [value]
+  speed:
+    description: Sets fly or walk speed
