@@ -31,6 +31,15 @@ public class CommandRooter{
 	public static void sendValueToHighMsg(Player p) {
 		p.sendMessage(ChatColor.RED + Variables.config.getString("Messages.To-high-Value"));
 	}
+	public static void sendLeftProtectAreaMsg(Player p) {
+		p.sendMessage(ChatColor.YELLOW + Variables.config.getString("Messages.Left-protect-area"));
+	}
+	public static void sendEnteredProtectAreaMsg(Player p) {
+		p.sendMessage(ChatColor.YELLOW + Variables.config.getString("Messages.Entered-protect-area"));
+	}
+	public static void sendLoggedInAdnimListMsg(Player p) {
+		p.sendMessage(ChatColor.GREEN + Variables.config.getString("Messages.Logged-in-admin-list"));
+	}
 	public static void sendPlayerOnlyCmdMsg() {
 		System.out.println(Variables.config.getString("Messages.Player-only-command"));
 	}

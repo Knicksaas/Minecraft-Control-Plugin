@@ -35,12 +35,17 @@ public class Mcp {
 					} else {
 						CommandRooter.sendAlredyLoggedOutMsg(p);
 					}
-					
+				} else {
+					CommandRooter.sendNoPermissionMsg(p);
+				}
+			} else if (args.length == 1 && args[0].equalsIgnoreCase("list")) {
+				if(p.hasPermission("mcp.list")) {
+					CommandRooter.sendLoggedInAdnimListMsg(p);
+					p.sendMessage(Variables.adminList.toString());
 				} else {
 					CommandRooter.sendNoPermissionMsg(p);
 				}
 			}
-			
 		} else {
 			CommandRooter.sendPlayerOnlyCmdMsg();
 		}

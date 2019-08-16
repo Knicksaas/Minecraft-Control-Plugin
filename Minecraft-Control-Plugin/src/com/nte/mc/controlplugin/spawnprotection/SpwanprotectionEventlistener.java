@@ -9,6 +9,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 
+import com.nte.mc.controlplugin.commands.CommandRooter;
 import com.nte.mc.controlplugin.main.Main;
 import com.nte.mc.controlplugin.main.Variables;
 
@@ -80,13 +81,14 @@ public class SpwanprotectionEventlistener implements Listener{
 		}
 		
 		if(dirX && dirY && dirZ) {
-			p.sendMessage("You are in a protected area!");
 			if(!p.getGameMode().equals(GameMode.ADVENTURE)) {
+				CommandRooter.sendEnteredProtectAreaMsg(p);
 				p.setGameMode(GameMode.ADVENTURE);
 			}
 			
 		} else {
 			if(!p.getGameMode().equals(GameMode.SURVIVAL)) {
+				CommandRooter.sendLeftProtectAreaMsg(p);
 				p.setGameMode(GameMode.SURVIVAL);
 			}
 		}

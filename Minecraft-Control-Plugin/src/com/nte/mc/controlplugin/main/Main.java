@@ -39,7 +39,10 @@ public class Main extends JavaPlugin{
 			return MovmentsCommands.speed(sender, cmd, label, args);
 		} else if (cmd.getName().equalsIgnoreCase("fly")) {
 			return MovmentsCommands.fly(sender, cmd, label, args);
+		} else if (cmd.getName().equalsIgnoreCase("setmaxhealth")) {
+			return HealthCommands.setMaxHealth(sender, cmd, label, args);
 		}
+		
 		
 	return false;
 	}

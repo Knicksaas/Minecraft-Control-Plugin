@@ -22,3 +22,5 @@ Messages:
   Player-not-found: Player not found!
   Syntax-error: Syntax error!
   To-high-Value: This value is to high!
+  Left-protect-area: You left protected area!
+  Entered-protect-area: You entered protected area!

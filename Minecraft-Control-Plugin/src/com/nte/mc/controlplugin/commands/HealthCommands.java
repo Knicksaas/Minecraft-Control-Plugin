@@ -12,12 +12,12 @@ public class HealthCommands {
 			Player p = (Player) sender;
 			if(p.hasPermission("mcp.health.heal")) {
 				if(args.length == 0) {
-					p.setHealth(20.0);
+					p.setHealth(p.getMaxHealth());
 					return true;
 				} else if (args.length == 1) {
 					for(Player t : Bukkit.getServer().getOnlinePlayers()) {
 						if(args[0].equalsIgnoreCase(t.getDisplayName())) {
-							t.setHealth(20.0);
+							t.setHealth(t.getMaxHealth());
 							return true;
 						} else {
 							CommandRooter.sendPlayerNotFoundMsg(p);
@@ -75,5 +75,4 @@ public class HealthCommands {
 		}
 		return false;
 	}
-
 }
