@@ -23,3 +23,7 @@ commands:
     description: Sets Player flying
     permissions: mcp.mv.fly
     usage: /fly [Player]
+  mem:
+    description: Shows player current memory usage
+    permissions: mcp.mem
+    usage: /mem

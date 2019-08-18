@@ -7,6 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import com.nte.mc.controlplugin.commands.HealthCommands;
 import com.nte.mc.controlplugin.commands.Mcp;
+import com.nte.mc.controlplugin.commands.MonitoringCommands;
 import com.nte.mc.controlplugin.commands.MovmentsCommands;
 import com.nte.mc.controlplugin.spawnprotection.SpwanprotectionEventlistener;
 
@@ -41,6 +42,8 @@ public class Main extends JavaPlugin{
 			return MovmentsCommands.fly(sender, cmd, label, args);
 		} else if (cmd.getName().equalsIgnoreCase("setmaxhealth")) {
 			return HealthCommands.setMaxHealth(sender, cmd, label, args);
+		} else if (cmd.getName().equalsIgnoreCase("mem")) {
+			return MonitoringCommands.mem(sender, cmd, label, args);
 		}
 		
 		

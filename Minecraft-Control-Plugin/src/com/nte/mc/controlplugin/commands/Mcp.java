@@ -41,7 +41,7 @@ public class Mcp {
 			} else if (args.length == 1 && args[0].equalsIgnoreCase("list")) {
 				if(p.hasPermission("mcp.list")) {
 					CommandRooter.sendLoggedInAdnimListMsg(p);
-					p.sendMessage(Variables.adminList.toString());
+					p.sendMessage(ChatColor.BLUE + Variables.adminList.toString());
 				} else {
 					CommandRooter.sendNoPermissionMsg(p);
 				}

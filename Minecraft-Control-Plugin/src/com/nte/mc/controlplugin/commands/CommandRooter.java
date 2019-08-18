@@ -38,7 +38,7 @@ public class CommandRooter{
 		p.sendMessage(ChatColor.YELLOW + Variables.config.getString("Messages.Entered-protect-area"));
 	}
 	public static void sendLoggedInAdnimListMsg(Player p) {
-		p.sendMessage(ChatColor.GREEN + Variables.config.getString("Messages.Logged-in-admin-list"));
+		p.sendMessage(ChatColor.BLUE + Variables.config.getString("Messages.Logged-in-admin-list"));
 	}
 	public static void sendPlayerOnlyCmdMsg() {
 		System.out.println(Variables.config.getString("Messages.Player-only-command"));
