@@ -19,17 +19,19 @@
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.Commandrooter"/>
 <fullyQualifiedTypeName name="net.md_5.bungee.api.ChatColor"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.Mcp"/>
-<fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
 <fullyQualifiedTypeName name="org.bukkit.command.CommandSender"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="java.lang.Float"/>
-<fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
 <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.MovmentsCommands"/>
-<fullyQualifiedTypeName name="org.bukkit.entity.Turtle"/>
 <fullyQualifiedTypeName name="javax.lang.model.type.ErrorType"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.HealthCommands"/>
-<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.CommandRooter"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.main.Variables"/>
+<fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.MonitoringCommands"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.CommandRooter"/>
+<fullyQualifiedTypeName name="java.lang.Runtime"/>
+<fullyQualifiedTypeName name="org.bukkit.entity.Turtle"/>
+<fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
 </qualifiedTypeNameHistroy>

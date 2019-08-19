@@ -9,6 +9,7 @@ import com.nte.mc.controlplugin.commands.HealthCommands;
 import com.nte.mc.controlplugin.commands.Mcp;
 import com.nte.mc.controlplugin.commands.MonitoringCommands;
 import com.nte.mc.controlplugin.commands.MovmentsCommands;
+import com.nte.mc.controlplugin.commands.PlayerCommands;
 import com.nte.mc.controlplugin.spawnprotection.SpwanprotectionEventlistener;
 
 public class Main extends JavaPlugin{
@@ -17,6 +18,7 @@ public class Main extends JavaPlugin{
 
 	@Override
 	public void onEnable() {
+		
 		Variables.config = config;
 		System.out.println("[ControlPlugin] Enabled successfully");
 		this.saveDefaultConfig();
@@ -26,6 +28,7 @@ public class Main extends JavaPlugin{
 	
 	public void eventRegister() {
 		this.getServer().getPluginManager().registerEvents(new SpwanprotectionEventlistener(this), this);
+		this.getServer().getPluginManager().registerEvents(new PlayerCommands(), this);
 	}
 	
 	@Override
@@ -44,6 +47,10 @@ public class Main extends JavaPlugin{
 			return HealthCommands.setMaxHealth(sender, cmd, label, args);
 		} else if (cmd.getName().equalsIgnoreCase("mem")) {
 			return MonitoringCommands.mem(sender, cmd, label, args);
+		} else if (cmd.getName().equalsIgnoreCase("inv")) {
+			return PlayerCommands.inv(sender, cmd, label, args);
+		} else if (cmd.getName().equalsIgnoreCase("whois")) {
+			return PlayerCommands.whois(sender, cmd, label, args);
 		}
 		
 		

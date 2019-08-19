@@ -27,3 +27,11 @@ commands:
     description: Shows player current memory usage
     permissions: mcp.mem
     usage: /mem
+  inv:
+    description: Lets you interact with Inventory of a player
+    permissions: mcp.inv
+    usage: /inv <Player>
+  whois:
+    description: Properties of Player
+    permissions: mcp.whois
+    usage: /whois <Player>
