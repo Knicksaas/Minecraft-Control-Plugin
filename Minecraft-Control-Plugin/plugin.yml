@@ -35,3 +35,7 @@ commands:
     description: Properties of Player
     permissions: mcp.whois
     usage: /whois <Player>
+  lag:
+    description: Ticks per second statistics
+    permissions: mcp.tps
+    usage: /tps

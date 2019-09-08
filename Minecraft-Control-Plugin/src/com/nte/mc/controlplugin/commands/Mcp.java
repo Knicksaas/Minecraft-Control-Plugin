@@ -15,7 +15,7 @@ public class Mcp {
 			Player p = (Player) sender;
 			if(args.length == 0) {
 				p.sendMessage(ChatColor.YELLOW + "" + ChatColor.BOLD + "Helplist of the Minecraft Control Plugin:");
-				p.sendMessage(ChatColor.BLUE + "mcp: Main command, help command");
+				p.sendMessage(ChatColor.AQUA + "mcp: Main command, help command");
 			} else if (args.length == 1 && args[0].equalsIgnoreCase("login")) {
 				if(p.hasPermission("mcp.login")) {
 					if(Variables.adminList.contains(p.getName())) {

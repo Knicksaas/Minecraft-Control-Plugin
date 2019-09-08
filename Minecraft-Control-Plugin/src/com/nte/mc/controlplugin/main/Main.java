@@ -51,6 +51,8 @@ public class Main extends JavaPlugin{
 			return PlayerCommands.inv(sender, cmd, label, args);
 		} else if (cmd.getName().equalsIgnoreCase("whois")) {
 			return PlayerCommands.whois(sender, cmd, label, args);
+		} else if (cmd.getName().equalsIgnoreCase("lag")) {
+			return MonitoringCommands.tps(this, sender, cmd, label, args);
 		}
 		
 		

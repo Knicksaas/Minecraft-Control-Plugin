@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.spawnprotection.Eventlistener"/>
-<fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
 <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerMoveEvent"/>
 <fullyQualifiedTypeName name="org.bukkit.block.Block"/>
 <fullyQualifiedTypeName name="org.bukkit.configuration.file.YamlConfiguration"/>
 <fullyQualifiedTypeName name="org.bukkit.Location"/>
 <fullyQualifiedTypeName name="org.bukkit.World"/>
-<fullyQualifiedTypeName name="com.nte.mc.controlplugin.main.Main"/>
 <fullyQualifiedTypeName name="javax.naming.directory.DirContext"/>
 <fullyQualifiedTypeName name="org.bukkit.GameMode"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
@@ -23,15 +20,25 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="java.lang.Float"/>
-<fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.MovmentsCommands"/>
 <fullyQualifiedTypeName name="javax.lang.model.type.ErrorType"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.HealthCommands"/>
 <fullyQualifiedTypeName name="com.nte.mc.controlplugin.main.Variables"/>
-<fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
-<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.MonitoringCommands"/>
-<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.CommandRooter"/>
 <fullyQualifiedTypeName name="java.lang.Runtime"/>
+<fullyQualifiedTypeName name="net.minecraft.server.v1_14_R1.LootItemFunctionApplyBonus.e"/>
+<fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
+<fullyQualifiedTypeName name="org.bukkit.event.inventory.InventoryClickEvent"/>
+<fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
 <fullyQualifiedTypeName name="org.bukkit.entity.Turtle"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.main.Main"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.PlayerCommands"/>
+<fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.CommandRooter"/>
+<fullyQualifiedTypeName name="net.minecraft.server.v1_14_R1.ArgumentCriterionValue.c"/>
 <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.nte.mc.controlplugin.commands.MonitoringCommands"/>
+<fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+<fullyQualifiedTypeName name="org.bukkit.inventory.Inventory"/>
 </qualifiedTypeNameHistroy>
